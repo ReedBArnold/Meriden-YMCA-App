@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "343846443660",
+    "firebase_url": "https://meriden-ymca-app.firebaseio.com",
+    "project_id": "meriden-ymca-app",
+    "storage_bucket": "meriden-ymca-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343846443660:android:946ee5e2a611bad1",
+        "android_client_info": {
+          "package_name": "com.arnold.reed.meridenymcaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343846443660-edl17shmo4aoqcgon3rmrortsdbjkt7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arnold.reed.meridenymcaapp",
+            "certificate_hash": "87d0dc4e7529d0df365534ee618c35c975ac2157"
+          }
+        },
+        {
+          "client_id": "343846443660-i67smsesktflgdph3o71kdbaii3rc077.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt27zQaUpFumPZ-onPaqZAAcWMxXeeWnA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343846443660-i67smsesktflgdph3o71kdbaii3rc077.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

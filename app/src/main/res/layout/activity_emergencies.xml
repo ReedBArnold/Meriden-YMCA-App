@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.arnold.reed.meridenymcaapp.EmergenciesActivity"
+    android:background="#3c6bf9"
+    android:nestedScrollingEnabled="true">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewEmergLayout"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/current_emergency_background"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="25dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Priority"
+            android:id="@+id/priorityLevelView"
+            android:layout_alignLeft="@+id/counselorView"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="location"
+            android:id="@+id/locationView"
+            android:layout_below="@+id/priorityLevelView"
+            android:layout_alignBaseline="@+id/priorityLevelView"
+            android:layout_toRightOf="@+id/priorityLevelView"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Description"
+            android:id="@+id/descView"
+            android:layout_below="@+id/priorityLevelView"
+            android:layout_alignRight="@+id/locationView"
+            android:layout_alignLeft="@+id/priorityLevelView"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Counselor"
+            android:id="@+id/counselorView"
+            android:layout_below="@+id/descView"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Date"
+            android:id="@+id/dateView"
+            android:layout_below="@+id/descView"
+            android:layout_toRightOf="@+id/counselorView"
+            android:layout_alignRight="@+id/locationView"
+            android:layout_alignParentRight="false"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PastEmergLayout"
+        android:gravity="center_horizontal"
+        android:background="@drawable/current_emergency_background1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/NewEmergLayout"
+        android:paddingTop="15dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="35dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Priority"
+            android:id="@+id/pastPriorityLevelView"
+            android:layout_alignLeft="@+id/pastCounselorView"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="location"
+            android:id="@+id/pastLocationView"
+            android:layout_below="@+id/pastPriorityLevelView"
+            android:layout_toRightOf="@+id/pastPriorityLevelView"
+            android:layout_alignBaseline="@+id/pastPriorityLevelView"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Description"
+            android:id="@+id/pastDescriptionView"
+            android:layout_below="@+id/pastPriorityLevelView"
+            android:layout_alignRight="@+id/pastLocationView"
+            android:layout_alignLeft="@+id/pastPriorityLevelView"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Counselor"
+            android:id="@+id/pastCounselorView"
+            android:layout_below="@+id/pastDescriptionView"
+            android:paddingRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Date"
+            android:id="@+id/pastDateView"
+            android:layout_below="@+id/pastDescriptionView"
+            android:layout_toRightOf="@+id/pastCounselorView"
+            android:layout_alignRight="@+id/pastLocationView"
+            android:layout_alignParentRight="false"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Emergency"
+        android:id="@+id/addEmergBtn"
+        android:layout_below="@+id/PastEmergLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#2ab5ff"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Meriden YMCA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="emergency_list">
+        <item>None-Urgent</item>
+        <item>Less-Urgent</item>
+        <item>Urgent</item>
+        <item>Emergent</item>
+        <item>Resuscitation</item>
+    </string-array>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3c6bf9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Meriden YMCA"
+        android:id="@+id/EmergenciesTitleLabel"
+        android:layout_marginTop="37dp"
+        android:textColor="#2e009a"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:allowUndo="false"
+        android:background="@drawable/title_background"
+        android:padding="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Not Registered? Click here"
+        android:id="@+id/registerLinkView"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:password="false"
+        android:textIsSelectable="true"
+        android:textSize="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="46dp"
+        android:layout_gravity="center"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmergenciesTitleLabel"
+        android:background="@drawable/title_background"
+        android:layout_alignLeft="@+id/EmergenciesTitleLabel"
+        android:layout_alignStart="@+id/EmergenciesTitleLabel"
+        android:layout_alignRight="@+id/EmergenciesTitleLabel"
+        android:layout_alignEnd="@+id/EmergenciesTitleLabel"
+        android:paddingBottom="20dp"
+        android:layout_centerInParent="true"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="false">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text|textEmailAddress"
+            android:ems="10"
+            android:id="@+id/nameEditR"
+            android:editable="false"
+            android:hint="Email Address..."
+            android:layout_marginBottom="38dp"
+            android:layout_above="@+id/passwordEditR"
+            android:layout_alignLeft="@+id/passwordEditR"
+            android:layout_alignStart="@+id/passwordEditR"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text|textPassword"
+            android:ems="10"
+            android:id="@+id/passwordEditR"
+            android:password="true"
+            android:hint="Password..."
+            android:layout_above="@+id/signInButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="34dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:id="@+id/signInButton"
+            android:background="#2ab5ff"
+            android:clickable="false"
+            android:textSize="24dp"
+            android:layout_above="@+id/forgetPassLinkView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Forget Password?"
+            android:id="@+id/forgetPassLinkView"
+            android:onClick="passwordReset"
+            android:clickable="true"
+            android:textStyle="italic"
+            android:layout_above="@+id/registerLinkView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

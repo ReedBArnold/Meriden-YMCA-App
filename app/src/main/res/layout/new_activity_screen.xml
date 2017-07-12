@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.arnold.reed.meridenymcaapp.NewActivityScreen"
+    android:background="#3c6bf9">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_background"
+        android:paddingBottom="40dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:id="@+id/newActivityLayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text|textEmailAddress"
+            android:ems="10"
+            android:id="@+id/actNameEditT"
+            android:editable="false"
+            android:layout_alignLeft="@+id/EmergenciesTitleLabel"
+            android:layout_alignStart="@+id/EmergenciesTitleLabel"
+            android:layout_alignRight="@+id/EmergenciesTitleLabel"
+            android:layout_alignEnd="@+id/EmergenciesTitleLabel"
+            android:layout_below="@+id/EmergenciesTitleLabel"
+            android:layout_gravity="center"
+            android:hint="Activity Name"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/dateEditT"
+            android:hint="Date"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text|textEmailAddress"
+            android:ems="10"
+            android:id="@+id/counselorEditT"
+            android:editable="false"
+            android:layout_below="@+id/editText2"
+            android:layout_alignLeft="@+id/EmergenciesTitleLabel"
+            android:layout_alignStart="@+id/EmergenciesTitleLabel"
+            android:layout_alignRight="@+id/EmergenciesTitleLabel"
+            android:layout_alignEnd="@+id/EmergenciesTitleLabel"
+            android:layout_gravity="center"
+            android:hint="Counselor"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text|textEmailAddress"
+            android:ems="10"
+            android:id="@+id/locationEditT"
+            android:editable="false"
+            android:layout_below="@+id/editText2"
+            android:layout_alignLeft="@+id/EmergenciesTitleLabel"
+            android:layout_alignStart="@+id/EmergenciesTitleLabel"
+            android:layout_alignRight="@+id/EmergenciesTitleLabel"
+            android:layout_alignEnd="@+id/EmergenciesTitleLabel"
+            android:layout_gravity="center"
+            android:hint="Location"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/descEditT"
+            android:hint="Description"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.66" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Add Activity"
+            android:id="@+id/addActivityBtn"
+            android:background="#2ab5ff"
+            android:clickable="false"
+            android:textSize="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:onClick="onClick" />
+    </LinearLayout>
+</RelativeLayout>

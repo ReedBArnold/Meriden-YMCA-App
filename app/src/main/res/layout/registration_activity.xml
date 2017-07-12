@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3c6bf9">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Meriden YMCA"
+        android:id="@+id/EmergenciesTitleLabel"
+        android:layout_marginTop="37dp"
+        android:textColor="#2e009a"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:allowUndo="false"
+        android:background="@drawable/title_background"
+        android:padding="15dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/title_background"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="40dp"
+        android:layout_below="@+id/EmergenciesTitleLabel"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text|textEmailAddress"
+            android:ems="10"
+            android:id="@+id/nameEditR"
+            android:editable="false"
+            android:layout_alignLeft="@+id/EmergenciesTitleLabel"
+            android:layout_alignStart="@+id/EmergenciesTitleLabel"
+            android:layout_alignRight="@+id/EmergenciesTitleLabel"
+            android:layout_alignEnd="@+id/EmergenciesTitleLabel"
+            android:layout_below="@+id/EmergenciesTitleLabel"
+            android:layout_gravity="center"
+            android:hint="Name"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textVisiblePassword|textPassword"
+            android:ems="10"
+            android:id="@+id/passwordEditR"
+            android:layout_below="@+id/nameEditR"
+            android:layout_marginTop="15dp"
+            android:layout_alignLeft="@+id/EmergenciesTitleLabel"
+            android:layout_alignStart="@+id/EmergenciesTitleLabel"
+            android:layout_alignRight="@+id/EmergenciesTitleLabel"
+            android:layout_alignEnd="@+id/EmergenciesTitleLabel"
+            android:layout_gravity="center"
+            android:hint="Password" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text|textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailEditR"
+            android:editable="false"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/passwordEditR"
+            android:layout_alignLeft="@+id/EmergenciesTitleLabel"
+            android:layout_alignStart="@+id/EmergenciesTitleLabel"
+            android:layout_alignRight="@+id/EmergenciesTitleLabel"
+            android:layout_alignEnd="@+id/EmergenciesTitleLabel"
+            android:layout_gravity="center"
+            android:hint="Email Address" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:measureWithLargestChild="false">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Counselor"
+                    android:id="@+id/counselorBtn"
+                    android:onClick="onClick"
+                    android:layout_below="@+id/emailEditR"
+                    android:layout_alignLeft="@+id/directorBtn"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="19dp"
+                    android:layout_gravity="center|left"
+                    android:checked="false"
+                    android:contextClickable="false"
+                    android:allowUndo="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Director"
+                    android:id="@+id/directorBtn"
+                    android:onClick="onClick"
+                    android:layout_below="@+id/counselorBtn"
+                    android:layout_alignLeft="@+id/counselorBtn"
+                    android:layout_alignStart="@+id/counselorBtn"
+                    android:textSize="20dp"
+                    android:layout_gravity="center|left"
+                    android:allowUndo="false" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:id="@+id/registerButton"
+            android:background="#2ab5ff"
+            android:clickable="false"
+            android:textSize="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>
