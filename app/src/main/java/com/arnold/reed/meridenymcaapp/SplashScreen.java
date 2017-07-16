@@ -1,10 +1,7 @@
 package com.arnold.reed.meridenymcaapp;
 /**
- * Created by Reed on 7/8/2017
- * Version 0.4
- *
- *
- * Class to control the splash screen and it's timer
+ * Created by Reed on 7/11/2017
+ * Version 0.5
  *
  */
 import android.app.Activity;

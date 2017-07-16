@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp.Models;
 /**
- * Created by Reed on 7/8/2017
- * Version 0.4
+ * Created by Reed on 7/11/2017
+ * Version 0.5
  *
  */
 import com.google.firebase.database.Exclude;
