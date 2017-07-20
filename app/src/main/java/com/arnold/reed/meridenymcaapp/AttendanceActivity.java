@@ -60,8 +60,8 @@ public class AttendanceActivity extends AppCompatActivity {
         uid = mUser.getUid();
         //nameTest = mUser.getDisplayName();
 
-        nameTest = "Reed";
-        mName = "James";
+        nameTest = "James";
+        mName = "Reed";
         mStatus = false;
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
