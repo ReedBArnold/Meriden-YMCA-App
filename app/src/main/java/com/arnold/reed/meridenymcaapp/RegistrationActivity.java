@@ -1,10 +1,12 @@
 package com.arnold.reed.meridenymcaapp;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -22,6 +24,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.UserProfileChangeRequest;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -112,6 +116,15 @@ public class RegistrationActivity extends AppCompatActivity {
                         Log.d(TAG, "AccountCreation:Success");
 
                         String uid = mAuth.getCurrentUser().getUid();
+//                        FirebaseUser currUser = mAuth.getCurrentUser();
+//                        UserProfileChangeRequest userSet = new UserProfileChangeRequest.Builder().setDisplayName(name).build();
+//                        currUser.updateProfile(userSet);
+                        Intent nameIntent = new Intent(RegistrationActivity.this,AttendanceActivity.class);
+                        nameIntent.putExtra("CURRENT_USER",name);
+
+//                        SharedPreferences.Editor editor = getPreferences(MODE_PRIVATE).edit();
+//                        editor.putString("CURRENT_USER",name);
+//                        editor.apply();
 
                         String key = mUserDatabase.push().getKey();
                         User user = new User(uid,name, email, password, type);
@@ -122,17 +135,14 @@ public class RegistrationActivity extends AppCompatActivity {
 
                         if(userType.equals("Counselor")){
                             ArrayList<Camper> campers = new ArrayList<Camper>();
-//                            Camper camper1 = new Camper("Tim",false);
-//                            campers.add(camper1);
-                            Attendance attendance = new Attendance(name,campers);
+                            Attendance attendance = new Attendance(uid,name,campers);
                             attendanceValues = attendance.toMap();
                             childUpdates.put("/Attendance/"+name, attendanceValues);
                         }
 
-                        childUpdates.put("/Users/" + key, userValues);
+                        childUpdates.put("/Users/" + uid, userValues);
                         mDatabase.updateChildren(childUpdates);
 
-                        //mDatabase.push().setValue(new User(username, email, password, type));
 
                         Intent i = new Intent(RegistrationActivity.this, SignInActivity.class);
                         startActivity(i);

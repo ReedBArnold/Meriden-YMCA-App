@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import android.content.Intent;
@@ -79,10 +79,16 @@ public class MainActivity extends AppCompatActivity {
         mSignOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mAuth.signOut();
+                FirebaseAuth.getInstance().signOut();
+                finish();
                 mAuthListener.onAuthStateChanged(mAuth);
             }
         });
     } //[ENDS onCreate]
+
+    @Override
+    protected  void onStop(){
+        super.onStop();
+    }
 
 } //[ENDS class]

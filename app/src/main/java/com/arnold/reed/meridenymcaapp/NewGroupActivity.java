@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import android.content.Intent;
@@ -17,6 +17,8 @@ import com.arnold.reed.meridenymcaapp.Models.Activity;
 import com.arnold.reed.meridenymcaapp.Models.Attendance;
 import com.arnold.reed.meridenymcaapp.Models.Camper;
 import com.arnold.reed.meridenymcaapp.Models.Group;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -85,20 +87,19 @@ public class NewGroupActivity extends AppCompatActivity {
         final String counselor = mCounselorEditT.getText().toString();
         final String location = mLocationEditT.getText().toString();
         final Boolean status = false;
-        final ArrayList<String> camperNames = mCamperNames;
+        //final ArrayList<String> camperNames = mCamperNames;
         final ArrayList<Camper> campers = mCampersList;
-        Camper camper = new Camper();
 
         if(TextUtils.isEmpty(name) || TextUtils.isEmpty(counselor) || TextUtils.isEmpty(location)){
             Toast.makeText(NewGroupActivity.this, "Fields are blank", Toast.LENGTH_LONG).show();
         } else {
             String key = mGroupsDatabase.push().getKey();
             Group group = new Group(name, counselor, location, campers);
-            Attendance attendance = new Attendance(counselor,campers);
 
-//            for (Iterator<Camper> it = campers.iterator(); it.hasNext();){
-//                camper = new Camper(it.next(),status);
-//            }
+            FirebaseAuth mAuth = FirebaseAuth.getInstance();
+            String uid = mAuth.getCurrentUser().getUid();
+            Attendance attendance = new Attendance(uid,counselor,campers);
+
 //          Map<String, Object> camperValues = camper.toMap();
             Map<String, Object> attendanceValues = attendance.toMap();
             Map<String, Object> groupValues = group.toMap();
@@ -108,36 +109,6 @@ public class NewGroupActivity extends AppCompatActivity {
             childUpdates.put("/Attendance/"+counselor, attendanceValues);
 
             mDatabase.updateChildren(childUpdates);
-
-            //mGroupsDatabase.push().setValue(new Group(name, counselor, location, campers));
-            //mDatabase.child("Counselors").child(counselor).setValue(campers);
-
-//            mDatabase.child("Counselors").child(counselor).addChildEventListener(new ChildEventListener() {
-//                @Override
-//                public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-//
-//                }
-//
-//                @Override
-//                public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-//
-//                }
-//
-//                @Override
-//                public void onChildRemoved(DataSnapshot dataSnapshot) {
-//
-//                }
-//
-//                @Override
-//                public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-//
-//                }
-//
-//                @Override
-//                public void onCancelled(DatabaseError databaseError) {
-//
-//                }
-//            });
 
             Intent i = new Intent(NewGroupActivity.this, GroupsActivity.class);
             startActivity(i);

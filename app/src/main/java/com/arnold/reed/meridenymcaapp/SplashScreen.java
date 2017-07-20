@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import android.app.Activity;

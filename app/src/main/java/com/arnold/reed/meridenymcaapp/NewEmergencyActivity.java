@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import android.content.Intent;
@@ -42,8 +42,6 @@ public class NewEmergencyActivity extends AppCompatActivity {
     private Button mEmergButton;
 
     private DatabaseReference mDatabase, mEmergDatabase;
-    private DatabaseReference mNewEmergDatabase;
-    private DatabaseReference mOldEmergDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,8 +73,6 @@ public class NewEmergencyActivity extends AppCompatActivity {
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
         mEmergDatabase = mDatabase.child("Emergencies");
-        //mNewEmergDatabase = mDatabase.child("New Emergencies");
-        //mOldEmergDatabase = mDatabase.child("Old Emergencies");
 
         if(TextUtils.isEmpty(description) || TextUtils.isEmpty(location) || TextUtils.isEmpty(counselor) || TextUtils.isEmpty(counselor)){
             Toast.makeText(NewEmergencyActivity.this, "Fields are blank", Toast.LENGTH_LONG).show();
@@ -89,38 +85,9 @@ public class NewEmergencyActivity extends AppCompatActivity {
             childUpdates.put("/Emergencies/" + key, emergencyValues);
             mDatabase.updateChildren(childUpdates);
 
-            //mDatabase.push().setValue(new Emergency(description, counselor, priority, date, location));
-
             Intent i = new Intent(NewEmergencyActivity.this, EmergenciesActivity.class);
             startActivity(i);
             finish();
-
-//            mDatabase.push().addChildEventListener(new ChildEventListener() {
-//                @Override
-//                public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-//
-//                }
-//
-//                @Override
-//                public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-//
-//                }
-//
-//                @Override
-//                public void onChildRemoved(DataSnapshot dataSnapshot) {
-//
-//                }
-//
-//                @Override
-//                public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-//
-//                }
-//
-//                @Override
-//                public void onCancelled(DatabaseError databaseError) {
-//
-//                }
-//            });
         }
     } //[ENDS addEmergency]
 

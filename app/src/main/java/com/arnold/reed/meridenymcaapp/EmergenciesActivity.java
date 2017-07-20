@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import android.content.Intent;
@@ -25,14 +25,10 @@ public class EmergenciesActivity extends AppCompatActivity {
 
     private Button mAddEmergBtn;
     private TextView mPriorityView, mLocView, mDateView, mDescView, mCounselorView;
-    private TextView mPastPriorityView, mPastLocView, mPastDateView, mPastDescView, mPastCounselorView;
 
     private Emergency emergency;
-    private String priorityPast;
 
     private DatabaseReference mDatabase;
-    private DatabaseReference mNewEmergDatabase;
-    private DatabaseReference mOldEmergDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,9 +37,6 @@ public class EmergenciesActivity extends AppCompatActivity {
         Firebase.setAndroidContext(this);
 
         mDatabase = FirebaseDatabase.getInstance().getReference().child("Emergencies");
-        mNewEmergDatabase = mDatabase.child("New Emergencies");
-        mOldEmergDatabase = mDatabase.child("Old Emergencies");
-
         emergency = new Emergency();
 
         mPriorityView = (TextView) findViewById(R.id.priorityLevelView);
@@ -51,12 +44,6 @@ public class EmergenciesActivity extends AppCompatActivity {
         mDateView = (TextView) findViewById(R.id.dateView);
         mDescView = (TextView) findViewById(R.id.descView);
         mCounselorView = (TextView) findViewById(R.id.counselorView);
-
-        mPastPriorityView = (TextView) findViewById(R.id.pastPriorityLevelView);
-        mPastLocView = (TextView) findViewById(R.id.pastLocationView);
-        mPastDateView = (TextView) findViewById(R.id.pastDateView);
-        mPastDescView = (TextView) findViewById(R.id.pastDescriptionView);
-        mPastCounselorView = (TextView) findViewById(R.id.pastCounselorView);
 
 
         mAddEmergBtn = (Button) findViewById(R.id.addEmergBtn);
@@ -79,18 +66,10 @@ public class EmergenciesActivity extends AppCompatActivity {
                 mDateView.setText(emergency.getDate());
                 mDescView.setText(emergency.getDesc());
                 mCounselorView.setText(emergency.getCounselor());
-
-                priorityPast = emergency.getPriority();
-
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                mPastPriorityView.setText(priorityPast);
-                mPastLocView.setText(emergency.getLocation());
-                mPastDateView.setText(emergency.getDate());
-                mPastDescView.setText(emergency.getDesc());
-                mPastCounselorView = mCounselorView;
             }
 
             @Override
@@ -100,11 +79,7 @@ public class EmergenciesActivity extends AppCompatActivity {
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-                mPastPriorityView.setText(priorityPast);
-                mPastLocView.setText(emergency.getLocation());
-                mPastDateView.setText(emergency.getDate());
-                mPastDescView.setText(emergency.getDate());
-                mPastCounselorView = mCounselorView;
+
             }
 
             @Override
@@ -112,18 +87,7 @@ public class EmergenciesActivity extends AppCompatActivity {
 
             }
         });
-
-
-
     } //[ENDS onCreate]
-
-//    @Override
-//    protected void onStart(){
-//        super.onStart();
-//
-//
-//        //mPriorityView.setText();
-//    } //[ENDS onStart]
 
 
 } //[ENDS class]
