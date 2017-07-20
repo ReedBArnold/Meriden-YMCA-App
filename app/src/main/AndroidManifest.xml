@@ -28,6 +28,7 @@
             android:label="Registration" />
         <activity android:name=".AttendanceActivity" />
         <activity android:name=".GroupsActivity" />
+        <activity android:name=".GroupDetailActivity"/>
         <activity android:name=".EmergenciesActivity" />
         <activity android:name=".ActivitiesActivity" />
         <activity android:name=".NewActivityScreen" />
