@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import android.content.Intent;
@@ -71,16 +71,10 @@ public class AttendanceActivity extends AppCompatActivity {
         mUserDatabase.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-//                for(DataSnapshot userSnapshot: dataSnapshot.getChildren()){
-//                    User user = new User();
-//                    mName = userSnapshot.child("name").getValue().toString();
-//                }
                 mName = dataSnapshot.child("name").getValue().toString();
-
             }
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
             }
         });
 
@@ -92,7 +86,6 @@ public class AttendanceActivity extends AppCompatActivity {
                     Camper camper = new Camper();
                     nameTest = camperSnapshot.child("name").getValue().toString();
                     camper.setName(nameTest);
-                    //camper.setName(camperSnapshot.child("name").getValue().toString());
                     camper.setStatus(mStatus);
                     mCamperList.add(camper);
                 }
@@ -119,7 +112,6 @@ public class AttendanceActivity extends AppCompatActivity {
             @Override
             protected void populateView(View v, Camper camper, int position){
                 ((TextView) v.findViewById(R.id.nameAttendanceView)).setText(camper.getName());
-                //mCamperDatabase.child(camper.getName()).setValue(new Camper(camper.getName(),mStatus));
             }
         };
         mAttendanceList.setAdapter(attendanceAdapter);
@@ -133,7 +125,6 @@ public class AttendanceActivity extends AppCompatActivity {
 
             Attendance attendance = new Attendance(uid,counselor,campers);
 
-//          Map<String, Object> camperValues = camper.toMap();
             Map<String, Object> attendanceValues = attendance.toMap();
             Map<String, Object> childUpdates = new HashMap<>();
 
@@ -152,11 +143,9 @@ public class AttendanceActivity extends AppCompatActivity {
         if(checked){
             mStatus = true;
             //mStatusBtn.setText("Present");
-            //mCamperList.add(new Camper(nameTest, mStatus));
         } else {
             mStatus = false;
             //mStatusBtn.setText("Absent");
-            //mCamperList.add(new Camper(nameTest, mStatus));
         }
     }//[ENDS onCheckboxClicked]
 
