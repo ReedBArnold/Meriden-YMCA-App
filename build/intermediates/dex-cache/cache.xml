@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.2.0_a475ada1dc26286bb7f911edd3a53393ab4982ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a5f50e080b426327fe1851f6f7b5f836bff6ac9f">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-11.0.0_06e1afe3c010670895e727a9c5e1d97d046cbe3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2299e7e6e579fa158fc1135b9e62f5b56b6b0aa8">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-11.0.0_b2f54811d85c30d799f306e8f27f4137bea64c11.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_ac0501f0b17e8cda2a9a459bfe81843707dafa55.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="f351ee2e10aaf23a13b0fcd19788683d7dce6192">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-11.0.0_39f38f1f0b8d14ba4bd4f058ea249a76f2831188.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="5d08eea1d3853927600d2507c7ca47a31c3df5d0">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-api-11.0.0_65ec368e0bd8e49d8c492730aa6685fc414ffebd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a67e5fbb2dacbe75c0a942e9dfec7a49803b941e">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-11.0.0_ced098e56eae38570fe383986e424670c897746e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6dfa77c356a9a8c13ad61253ed95ed3a746527e6">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-11.0.0_9847483a0f5e78c21263682486262d105f6039c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d410043f93e71bb0179ba86b85726dd080f14b79">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.0.0_9d5579e0f9b62cf3797cfb16cb70f6b4b857b25a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2018b324dbe57d9a1304a0b6a97ece59de258da6">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-11.0.0_1f4e0d586561473d8ceb306ea6c8f0bcedec75ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a1dc8abf7fd09c2c993c4f55eb85f477f6ef76f0">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-framework-11.0.0_9b0767a81307f75fdd804bafaa8a7141e841dae6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_6e6872ec5347201f62ecb9b4398e950b4945edd1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-25.2.0_60a7ff967cfa42d994bd1ef0541aa3591cc69e0b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="472812641483188b3121f3294d7da47df3c14d33">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-11.0.0_bf3cce228534ec1fdef5dc5993a8e87804a9adfa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="20051ea387377125db14d6c0966662019f0a897c">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-11.0.0_d274ae6350105ff290d25f66ac3dc906fc097220.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="89e585298b910ee100d0f0f1e7f65520aab37931">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-11.0.0_68979da4cdcc279a7939b963b09d3e60d73704be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\tubesock-0.0.11_4c2af3e46c8a49c07e5d159c99c72bc440bc65ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_448e24fb708bb919d3eabbbc75e8692366de940e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="eaac8b02a2373e238cab6fc514e4667204b64191">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-common-11.0.0_06d34ea3cc3f6394c17de44c6ea67ec7644fd189.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2_a3ab34b98c12c78e50439a5045c1858dc4c091ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a611d7a00671ec4eb3050a21425fae955a38eb8a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-11.0.0_16f279ce87320b7f7c3a5be8f275d118feac50e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="8723f4a84a0293f5e9ee76193e6bfec47137f048">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-11.0.0_8959abed925da901b654a08ce419ecfa18a443e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.2.0_452064aca534ad95f2ad5336e880a5de8ec59293.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6bade648cc46af0ffc636586806c60dba1b7fdf8">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-11.0.0_0bb7cd719fcc9256764296ffe5ef1c6c6f3e48bd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0ffbd024a5fd5efda6714beeaa97314b43563f1c">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-awareness-11.0.0_ef08284fc1539cedab9a01bb45cb82518f67e93f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.2.0_060d3abf8612b2e9e8cfb2b553ea38aaf521d5b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="700b670ed3f9cf4b240081993c6004817866985a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-11.0.0_8f95f423d931e0995186d59db7cad0a0279698d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.2.0_567a33db2ad6a766ca9d0121150d9ac9ce0c710f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a1d71d46e9b2d160e82565bb55f67e0bac1aee3e">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-11.0.0_92374b0c8922a2443cf453e23c2503e68c9834b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision-common\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="432ae8736f68442ef8d6e5c43631081aaa298a34">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-common-11.0.0_fc8086ff8892d017b77971fa2bbed44aa14258e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="5af721e99ea8e51ab4c68975048641f01aca77b2">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-v4-impl-11.0.0_a87b9c1051453ca293030c12f9e73cf8643bf586.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.3.1\be29b24233711c419ce935aa0a1b12ebc49d1c9a\firebase-client-android-2.3.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.3.1_dadbd61d913873e0edb6660ecd56287d29ba4173.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2_452abaa5e0ca9364f449af496faa2a697fbd9419.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d74bfb5306aee8dbfa746b48842f87c01c64f6ac">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-11.0.0_c3e7aef782d4481965b6175230e0095d61fd4eac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-api-phone\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="972004dcec5aeb1d9f4c06a6d90e9b5b674b9aa3">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-api-phone-11.0.0_1e63fb31530e6168d540c8219ec7a8863d2dd281.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="022615f683d7cdff31a236e7a31e1048b51196eb">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-11.0.0_707761fbfe883c39b9765646f32ddf6fba89c21f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="c7b0c1662f1e2949e3635c2461a889cf9bd19c52">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-appindexing-11.0.0_e895d8b58d2974dad452a640790fe7e28c573607.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0e39662b49ef66950c0941aa5fd4c49346a7c341">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-11.0.0_2d3b3e323a0058ab788c51fc1123dcb51d0ae302.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\percent\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="b10d60271c8298c59316050648bd9bb7adc5019a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-percent-24.2.0_9777b63e7958f6785ac93225d4c0b23e2ceb890f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a00d7f8576a10b66449fbe4ac16f8de2fa4d683f">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-instantapps-11.0.0_18179943d575a1e43ea0e94c8604d9ffccfcf054.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="f58a75f1d77aea54d4a3c6bad03fa09df438285e">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-11.0.0_02c091ecfd3993763e2b1815d719e299b391fdc8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a6daff13bf4ff813ad6686440c9c116e3bbd7630">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-11.0.0_c6a4f25299d651248ce120f7af67b4f2958201bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="09190a1dee39d994bd6c151b2c9793d01db72447">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-11.0.0_2b13389d5fb8bc08b03271c9e325b451bbffbb6a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.2.0_e2728d9e57ba2f8b94185422a3cdc2381d24ccd6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="b985bd4eb1abd0e7e1f49c9cdf80a0d3563bad2a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-11.0.0_1dcbd43e315a078b78bce3d8ecf9a65f77efc68c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d61d03a79b7aa9cd89ab27e532e574ebc09f1bcb">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-11.0.0_7ef654e0902349c31e1ad5d188bfca9918839a08.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="98c1221c29c1a146edc6be342039cc242f9773c5">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-11.0.0_033cb65a2e0c57dcfa9e43f1da32935db68289cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fc6c0dae1d2dbb08ba3da08479ef40b501af1485">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-11.0.0_d60155a8a41bc22f3a33fd808cb8d50005a512f8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.3.1\4d53b7d6983247af02b8fe7e4228fff555a5e828\firebase-client-jvm-2.3.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.3.1_92cf7682f70407ec10d737d0a7038ebf26642ca8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2306e0665b3c407099437d9332e8528c2bfd5f99">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-11.0.0_c1073907a5664153eee4520fbcf9e1d0828364a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.2.0_903ccf2f7f4fffab754bd95020fc5aec0759081a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_d4a4594089867d1b9b8d9faad98c3a8928edabf3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d68bbf92de9721b02a31a3833abfdc90144c7e39">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-11.0.0_27178e97b79ab06fec5797f2bbc7b079e02d9246.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="30704152908c78f80b1fa72d3815118d102a5f07">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-11.0.0_e85752050faa0fae2c6c3ad1e0501ed731c9be7f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="af26875652e085cd14713ff655bc3aa07960d459">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-11.0.0_6de22d5fb8229419ce8fd88d2faf79fce39afb6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="ef65e4780d67d06abddd6e2d15dd4e0519ad8d8a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-11.0.0_f7bbf7ab45e928be555696936cd410d056a5f790.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="9e5e6d0c253cc142bd6a586b3fa0bc9bc9024a7d">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-11.0.0_f2bcaf24848cd72b8c3e67c3e478b76c41b546c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e72c498ef3e345135b6bfdf7fc83c6b905228ade">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.0_d79c61821ff5d1ee4861f0b561906eb499f40924.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_8717d6690804eeef9aa01827c099bed8b1af3268.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2484ee9a66188155c9c792ff279d4a34c8e1d22e">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-11.0.0_9d431b2f89424ae00bf6c4d9ef9e41c0287462f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e700cbcd6de81819f051434ef97c65e1390bf2d9">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-11.0.0_1ca464ab67a488216f3f76a179536ea8c439dda9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\palette-v7\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-25.2.0_b761888d4504157a6c4f0549f75283130ce47b5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-dynamic-links\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="da7ddb1b984e766c503ade0bc7e19001f56691ca">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-dynamic-links-11.0.0_9020fd97ca133fe9d86678be4617893db9abf446.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6c098516db3cf935b4a45dc4dfa95cf71d751961">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-11.0.0_f20c49ceb40985ebb6e9eee56a82000bfc2eabaf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.2.0_8277f4b9265dfd7082be45635e417e54a09cf6c7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="aba37a3eec04e174dc59f00cf4bd7992061d847a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-11.0.0_c484d27f9e99b447d16924d0a18341871eb3e6c2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2_307c5173cc8677d8c8a6813520381e606069bb2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="30854fe0b2a6e495a821d8f41f52c0a1d18d8d2a">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-11.0.0_2b19d7b4bb9c35779aa562454ba0cda79abea476.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-database\0.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.firebaseui-firebase-ui-database-0.4.0_a701fbdf32236bba04d4b678787abf549a3d7c2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="5f43d6c042ee8eb48fa7606da4d1034d472a43cd">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-11.0.0_0158b72f4cee26632dc53c7b502074fefac03ccc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6688016b1c2ab0daad89bb59ca9b7acbd1c80412">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-11.0.0_f86c8d4664820e5f7137248e89d8ca485ba54630.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="5687d5d0a5cc1113f84a0477d8fdd3b91222d26e">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-11.0.0_53cd0db919ad85b846ef85875370fe05309d0ef3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0ce1b9865e1e9baf2c9e03b4953ef2531db32d53">
+        <dex dex="C:\Users\Reed\Desktop\MeridenYMCAApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-11.0.0_1305f2f1e1c95dabcc2641be3cc24c2deebe90cb.jar" />
+    </item>
+
+</items>
