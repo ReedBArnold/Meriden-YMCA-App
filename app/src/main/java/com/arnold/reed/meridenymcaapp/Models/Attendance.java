@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp.Models;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import com.google.firebase.database.Exclude;
@@ -11,6 +11,8 @@ import java.util.Map;
 
 public class Attendance {
 
+        private String group;
+        private String uid;
         private String counselor;
         private ArrayList<Camper> campers = new ArrayList<Camper>();
 
@@ -18,17 +20,27 @@ public class Attendance {
         // Default constructor
     }
 
-        public Attendance(String counselor, ArrayList<Camper> campers){
-        this.counselor = counselor;
-        this.campers = campers;
+        public Attendance(String uid, String counselor, ArrayList<Camper> campers){
+            this.uid = uid;
+            this.counselor = counselor;
+            this.campers = campers;
     }
 
         @Exclude
         public Map<String, Object> toMap(){
-        HashMap<String, Object> input = new HashMap<>();
-        input.put("counselor", counselor);
-        input.put("campers", campers);
-        return input;
+            HashMap<String, Object> input = new HashMap<>();
+            input.put("uid", uid);
+            input.put("counselor", counselor);
+            input.put("campers", campers);
+            return input;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
     }
 
     public String getCounselor() {

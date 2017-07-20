@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp.Models;
 /**
- * Created by Reed on 7/11/2017
- * Version 0.5
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import com.google.firebase.database.Exclude;
@@ -22,9 +22,9 @@ public class Group {
     }
 
     public Group(String name,String counselor, String location, ArrayList<Camper> campers){
-        this.location = location;
         this.name = name;
         this.counselor = counselor;
+        this.location = location;
         this.campers = campers;
     }
 

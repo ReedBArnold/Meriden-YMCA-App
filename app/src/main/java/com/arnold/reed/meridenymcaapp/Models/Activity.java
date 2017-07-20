@@ -1,7 +1,7 @@
 package com.arnold.reed.meridenymcaapp.Models;
 /**
- * Created by Reed on 7/8/2017
- * Version 0.4
+ * Created by Reed on 7/16/2017
+ * Version 0.6
  *
  */
 import com.google.firebase.database.Exclude;
@@ -11,7 +11,6 @@ import java.util.Map;
 
 public class Activity {
 
-    //private String uid;
     private String name;
     private String desc;
     private String counselor;
@@ -35,7 +34,6 @@ public class Activity {
     @Exclude
     public Map<String, Object> toMap(){
         HashMap<String, Object> input = new HashMap<>();
-        //input.put("uid", uid);
         input.put("name", name);
         input.put("desc", desc);
         input.put("counselor", counselor);
