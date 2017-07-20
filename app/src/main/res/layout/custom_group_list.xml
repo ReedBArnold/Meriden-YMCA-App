@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:choiceMode="multipleChoice">
+    android:choiceMode="multipleChoice"
+    android:background="#3c6bf9">
 
 </ExpandableListView>

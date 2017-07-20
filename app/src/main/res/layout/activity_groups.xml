@@ -10,7 +10,7 @@
     tools:context="com.arnold.reed.meridenymcaapp.GroupsActivity"
     android:background="#3c6bf9">
 
-    <ExpandableListView
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/groupListView"

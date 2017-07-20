@@ -7,25 +7,22 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Camper Name"
-        android:id="@+id/nameAttendanceView"
+        android:id="@+id/groupCamperNameView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="34dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="28dp" />
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp" />
 
-    <CheckBox
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Status"
-        android:id="@+id/statusCheckBox"
-        android:onClick="onCheckboxClicked"
-        android:layout_alignBottom="@+id/nameAttendanceView"
-        android:layout_alignParentRight="true"
+        android:id="@+id/groupCamperStatusView"
+        android:layout_alignBottom="@+id/groupCamperNameView"
+        android:layout_alignTop="@+id/groupCamperNameView"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="44dp"
-        android:layout_marginEnd="44dp"
-        android:checked="true"
-        android:layout_alignTop="@+id/nameAttendanceView" />
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
 </RelativeLayout>

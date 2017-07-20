@@ -8,10 +8,53 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Group Name"
         android:id="@+id/groupNameView"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="25dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="28dp"
-        android:layout_marginStart="28dp" />
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/groupNameView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/groupNameView"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0"
+            android:id="@+id/currentAttendanceNum"
+            android:layout_marginRight="5dp"
+            android:numeric="integer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/"
+            android:id="@+id/lineView"
+            android:layout_toRightOf="@+id/currentAttendanceNum"
+            android:layout_toEndOf="@+id/currentAttendanceNum" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10"
+            android:id="@+id/totalAttendanceNum"
+            android:layout_alignBottom="@+id/currentAttendanceNum"
+            android:layout_toRightOf="@+id/lineView"
+            android:layout_toEndOf="@+id/lineView"
+            android:layout_marginLeft="3dp"
+            android:numeric="integer" />
+    </RelativeLayout>
+
 </RelativeLayout>
